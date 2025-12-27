@@ -32,7 +32,7 @@ html, body{
 }
 
 .title_1 h1{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Arial, sans-serif;
     font-size: 2rem;
     margin: 0px;
     padding: 0px;
@@ -82,7 +82,7 @@ html, body{
     background-color: rgba(219, 110, 164, 0.295);
     border-style: none;
     font-size: 40px;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Arial, sans-serif;
     box-shadow: 0px 0px 10px rgba(171, 123, 190, 0.479);
     animation: introduction_button 2.5s ease-in-out;
 }
@@ -159,3 +159,4 @@ html, body{
     }
 
 }
+
