@@ -1,0 +1,160 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: rgb(32, 32, 32);
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+html, body{
+    touch-action: manipulation;
+    -ms-touch-action: manipulation;
+}
+
+.introduction{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.title_1 h1{
+    font-family: cursive;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+    z-index: 10;
+
+}
+
+.title_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: introduction 2s ease-in-out;
+}
+.title_1 img{
+    width: 30px;
+    position: fixed;
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+    animation: srdicko_pulz 2s infinite;
+}
+
+#srdicko_1{
+    margin-right: 260px;
+    width: 150px;
+    rotate: -20deg;
+    animation: srdicko_pulz 3s infinite;
+}
+#srdicko_2{
+    margin-left: 260px;
+    width: 120px;
+    rotate: 30deg;
+}
+#srdicko_3{
+    margin-left: 280px;
+    margin-top: 90px;
+    width: 80px;
+    rotate: 20deg;
+    animation: srdicko_pulz 1s infinite;
+}
+
+
+#start_button{
+    margin-top: 60px;
+    color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(219, 110, 164, 0.295);
+    border-style: none;
+    font-size: 40px;
+    font-family:  cursive;
+    box-shadow: 0px 0px 10px rgba(171, 123, 190, 0.479);
+    animation: introduction_button 2.5s ease-in-out;
+}
+#start_button img{
+    width: 150px;
+    animation: potkan_wiggle 1s infinite;
+    
+}
+
+
+
+
+
+@keyframes introduction {
+    0%{
+        transform: translateY(-2000px);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+    80%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes introduction_button {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes srdicko_pulz {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes potkan_wiggle {
+    0%{
+        transform: rotate(-5deg);
+    }
+    
+    50%{
+        transform: rotate(5deg);
+    }
+    
+    100%{
+        transform: rotate(-5deg);
+    }
+}
+
+@keyframes zavri_p1 {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
