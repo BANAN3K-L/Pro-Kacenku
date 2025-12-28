@@ -40,6 +40,7 @@ function part3(){
 
     var text_content = document.getElementById("text_content");
 
+    var srdce_btn = document.getElementById("fotky_div");
     console.log("Spouštím část 3");
     text_body.style.animation = "roztahnuti_textu 1.5s forwards";
 
@@ -49,4 +50,6 @@ function part3(){
     love_div.style.animation = "zobraz_ily 5s forwards";
 
     text_content.style.animation = "zobraz_main_text 6s forwards";
+
+    srdce_btn.style.animation = "zobraz_srdce_btn 7s forwards";
 }
