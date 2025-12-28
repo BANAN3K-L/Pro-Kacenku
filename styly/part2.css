@@ -42,7 +42,7 @@
     justify-content: center;
     align-items: center;
     background-color: red;
-    margin-top: 150px;
+    margin-top: 200px;
     width: calc(100% - 20px);
     height: calc(100% - 200px);
     padding: 10px;
@@ -72,10 +72,10 @@
         transform: translateY(10px);
     }
     80%{
-        transform: translateY(-350px) scale(1);
+        transform: translateY(-300px) scale(1);
     }
     100%{
-        transform: translateY(-350px) scale(1);
+        transform: translateY(-300px) scale(1);
     }
 }
 
