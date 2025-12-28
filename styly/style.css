@@ -10,6 +10,7 @@ body{
     margin: 0;
     padding: 0;
     user-select: none;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Arial, sans-serif;
 }
 
 html, body{
