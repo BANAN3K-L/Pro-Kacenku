@@ -1,0 +1,126 @@
+
+#love_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(32, 32, 32);
+    /* background-color: red; */
+    transform: translateY(-70px);
+    font-size: 15px;
+    opacity: 0;
+    visibility: hidden;
+    animation: none;
+}
+
+#text_content{
+    width: calc(100% - 140px);
+    text-align: center;
+    opacity: 0;
+    padding: 0px 70px;
+    font-size: 17px;
+    margin-top: -105px;
+    animation: none;
+}
+
+
+
+
+@keyframes zobraz_main_text {
+    0%{
+        opacity: 0;
+        
+    }
+
+    20%{
+        opacity: 0;
+       
+    }
+
+    40%{
+        opacity: 0;
+       
+    }
+
+    60%{
+        opacity: 0;
+       
+    }
+    70%{
+        opacity: 0;
+        
+    }
+
+    80%{
+        opacity: 1;
+        
+    }
+
+    100%{
+        opacity: 1;
+        
+    }
+}
+
+@keyframes zobraz_ily {
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    20%{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    40%{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    60%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    70%{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    80%{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    100%{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes zmizeni_txt_buttonu {
+    0%{
+        opacity: 1;
+    }
+
+    20%{
+        opacity: 1;
+    }
+
+    40%{
+        opacity: 1;
+    }
+
+    60%{
+        opacity: 0;
+    }
+
+    80%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 0;
+    }
+
+}

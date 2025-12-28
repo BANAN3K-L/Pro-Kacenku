@@ -25,9 +25,28 @@ function part2(){
     mysicka2.style.animation = "zobrazeni_mysicek 6.5s forwards";
 }
 
+
+
+
+
+
+
 function part3(){
     var text_body = document.getElementById("text_body");
+    var lilie = document.getElementById("lilie");
+    var text_button = document.getElementById("text_button");
+
+    var love_div = document.getElementById("love_div");
+
+    var text_content = document.getElementById("text_content");
 
     console.log("Spouštím část 3");
     text_body.style.animation = "roztahnuti_textu 1.5s forwards";
+
+    lilie.style.animation = "zobraz_lilie 4s forwards";
+
+    text_button.style.animation = "zmizeni_txt_buttonu 3s forwards";
+    love_div.style.animation = "zobraz_ily 5s forwards";
+
+    text_content.style.animation = "zobraz_main_text 6s forwards";
 }
