@@ -53,3 +53,18 @@ function part3(){
 
     srdce_btn.style.animation = "zobraz_srdce_btn 7s forwards";
 }
+
+
+function part4(){
+    var fotky_div = document.getElementById("part4_fotky_div");
+
+    var mysicka1 = document.getElementById("text_mysicka");
+    var mysicka2 = document.getElementById("text_mysicka2");
+
+
+    fotky_div.style.visibility = "visible";
+    fotky_div.style.animation = "zobraz_fotky 3s forwards";
+
+    mysicka1.style.animation = "schovej_mysicky 3.5s forwards";
+    mysicka2.style.animation = "schovej_mysicky 3.5s forwards";
+}
