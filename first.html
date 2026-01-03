@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="styly/wrong.css">
+    <title>Špatný QR kód</title>
+</head>
+
+<body>
+    <script src="wrong.js"></script>
+
+    <div class="first_part">
+        <div class="input_border" id="ram">
+            <h3>Zadej datum <br>kdy jsme spolu začli<br> oficiálně chodit</h3>
+            <input type="date" id="date">
+            <input type="submit" id="potvrd" onclick="check_date()">
+        </div>
+        
+        <h3 id="wrong_text">Špatná odpověď! 😞😡</h3>
+        <div class="wrong_answer" id="wrong_ans">
+            <img src="assety/mysicka.png" id="mysicka">
+            
+        </div>
+    </div>
+
+    <div class="part2" id="part2">
+        <img src="assety/lilie.png" id="lilie">
+        <h1>Nakenovala jsi bohužel špatný QR kód....<br>Ten správný najdeš za televizí <br>ve tvém pokoji💖</h1> 
+        <img src="assety/lilie.png" id="lilie2">
+    </div>
+
+</body>
+</html>
